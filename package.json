@@ -1,0 +1,57 @@
+{
+    "name": "awescnb",
+    "version": "3.0.0",
+    "description": "awesome cnblog",
+    "repository": "https://github.com/awescnb/awescnb",
+    "scripts": {
+        "start": "npm run dev",
+        "serve": "npm run dev",
+        "dev": "vite --config config/vite.config.dev.js",
+        "build": "webpack --config config/webpack.prod.js"
+    },
+    "keywords": [],
+    "author": "GZ",
+    "license": "MIT",
+    "sideEffects": [
+        "*.css",
+        "*.scss",
+        "*.less"
+    ],
+    "devDependencies": {
+        "@babel/core": "^7.14.5",
+        "@babel/preset-env": "^7.14.5",
+        "autoprefixer": "^9.8.6",
+        "babel-eslint": "^10.1.0",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^5.2.6",
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-loader": "^3.0.4",
+        "eslint-plugin-prettier": "^3.4.0",
+        "html-webpack-plugin": "^5.3.1",
+        "less": "^4.1.1",
+        "less-loader": "^7.3.0",
+        "mini-css-extract-plugin": "^1.6.0",
+        "optimize-css-assets-webpack-plugin": "^5.0.6",
+        "postcss": "^8.3.3",
+        "postcss-import": "^12.0.1",
+        "postcss-loader": "^5.3.0",
+        "prettier": "1.19.1",
+        "sass": "^1.34.1",
+        "sass-loader": "^11.1.1",
+        "style-loader": "^2.0.0",
+        "terser-webpack-plugin": "^4.2.3",
+        "url-loader": "^4.1.1",
+        "vite": "^2.3.7",
+        "vite-plugin-html": "^2.0.7",
+        "webpack": "^5.38.1",
+        "webpack-bundle-analyzer": "^3.9.0",
+        "webpack-cli": "^4.7.2",
+        "webpack-dev-server": "^3.11.2",
+        "webpack-merge": "^5.8.0"
+    },
+    "dependencies": {
+        "notyf": "^3.10.0",
+        "nprogress": "^0.2.0"
+    }
+}
